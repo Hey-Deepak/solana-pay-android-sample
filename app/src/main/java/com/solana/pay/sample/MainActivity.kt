@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         viewBinding.buttonInternalUri.setOnClickListener {
             // NOTE: this is an arbitrary address - please don't perform any real transfers to it!
-            solanaPayActivityResult.launch(Uri.parse("solana:84npKJKZy8ixjdq8UChZULDUea2Twt8ThxjiqKd7QZ54?amount=100&memo=Test%20xfer"))
+            solanaPayActivityResult.launch(Uri.parse("solana:6j78L12CGQ9tBSTnaPqoFCTkd4Y6MmdUCfLwfM5MmAAe?amount=100&memo=Test%20xfer"))
         }
     }
 }
